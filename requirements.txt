@@ -1,0 +1,4 @@
+groq
+datasets
+pandas
+python-dotenv

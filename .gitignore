@@ -1,35 +1,40 @@
-.env
-results/
+# Python cache
 __pycache__/
-
-# Python
 *.pyc
 *.pyo
 *.pyd
-.Python
-*.so
-*.egg
-*.egg-info
-dist/
-build/
-*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
 
 # Virtual environments
 venv/
 env/
 ENV/
 
-# IDE
+# VS Code
 .vscode/
-.idea/
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
 
-# Jupyter
-.ipynb_checkpoints
+# Logs
+*.log
 
 # Temporary files
 *.tmp
-*.swp
+
+# Environment variables
+.env
+
+# Cache
+.cache/
+
+# Model files (ignore if large)
+*.pkl
+*.joblib
+
+# Data (ignore if large)
+data/
+datasets/

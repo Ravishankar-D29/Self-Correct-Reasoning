@@ -215,16 +215,3 @@ This project demonstrates that:
 > Iterative reasoning with self-critique can significantly improve LLM performance over single-pass generation.
 
 However, it remains an **experimental pipeline**, not a production system.
-
----
-
-## 🧠 Reviewer Preparation
-
-Be ready to answer:
-
-* Why does critique improve performance?
-* What defines “confidence” in your system?
-* Why not fine-tune instead of iterating?
-* What is the computational trade-off?
-
-If you can’t explain these, the project will fall apart in a review.
